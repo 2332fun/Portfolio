@@ -1,21 +1,3 @@
-<!--AS AN employer
-I WANT to view a potential employee's deployed portfolio of work samples
-SO THAT I can review samples of their work and assess whether they're a good candidate for an open position-->
-
-<!--GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport-->
-
 <!DOCTYPE html>
 <html lang="en-us">
 
@@ -25,33 +7,96 @@ THEN I am presented with a responsive layout that adapts to my viewport-->
     <title>Diana Taylor's Portfolio</title>
 </head>
 
-<body>
-<!--Devloper's Name-->
-Diana Taylor
-Alias': 2332fun, arachnescreativedesigns
+<header>
+    <!---Developer's Name-->
+    <h1>
+        Diana Taylor
+    </h1>
+    <h3>
+        Aliases: 2332fun, arachnescreativedesigns</h3>
+    </h3>
+    <!--Recent Photo or Avatar-->
+    <img class="myimg" src="./assets/images/me.jpg" alt="A recent picture of Diana Taylor" />
+    <!---Navigation Bar-->
+    <nav>
+        <!-- Unordered list element -->
+        <ul>
+            <!-- List item element-->
+            <li>
+            <!-- Anchor element -->
+            <!--Navigation Link to Section:ABOUT THEM-->
+            <!--When CLICKED: Scrolls user down to Section:ABOUT THEM-->
+            <a href="#About-Me">About Me</a>
+            </li>
+            <li>
+            <!--Navigation Link to Section:THEIR WORK-->
+            <!--When CLICKED: Scrolls user down to Section:THEIR WORK-->
+            <a href="#My-Work">My Work</a>
+            </li>
+            <li>
+            <!--Navigation Link to Section:HOW TO CONTACT THEM-->
+            <!--When CLICKED: Scrolls user down to Section:HOW TO CONTACT THEM-->
+            <a href="#Contact-Me">How To Contact Me</a>
+            </li>
+        </ul>
+    </nav>
+</header>
 
-<!--Recent Photo or Avatar-->
-<img src="./assets/images/me.jpg" alt="A recent picture of Diana Taylor" />
+<section id="About-Me" class="intro">
+    <div class="flex-row">
+            <h2>About Me</h2>
+            <p>
+                Placeholder for About Me
+            </p>
+    </div>
+    <div class="flex-row">
+        <h2 id="mywork">My Work</h2>
+            <!--Section: THEIR WORK-->
+            <!--Titled Images of Developer's Applications-->
+            <!--When presented 1st application image: Become larger than other application images-->
+            <!--When images are CLICKED: taken to deployed application (in new tab)-->
 
-<!--Navigation Link to Section:ABOUT THEM-->
-    <!--When CLICKED: Scrolls user down to Section:ABOUT THEM-->
+    </div>
+    
+    <section id="My-Work" class="links">
+            <a href="https://2332fun.github.io/run-buddy/" target="_blank" rel="noopener noreferrer">
+            <img id="firstimg" alt="Run Buddy: Completed CWRU Project" src="./assets/images/runbuddyimg.png"
+            width="300" height="auto">
+            </a>
+            <p>Run Buddy: Completed CWRU Project</p>
+            <a href="https://2332fun.github.io/Horiseon-Project/" target="_blank" rel="noopener noreferrer">
+            <img alt="Horiseon: Completed CWRU Project" src="./assets/images/Horiseonprojectimg.png"
+            width="300" height="auto">
+            </a>
+            <p>Horiseon-Project: Completed CWRU Project</p> 
+            <a href="https://2332fun.github.io/fanpage/" target="_blank" rel="noopener noreferrer">
+            <img alt="Otep Fanpage: Completed CWRU Practice" src="./assets/images/fanpageimg.png"
+            width="300" height="auto">
+            </a>
+            <p>Fanpage: Completed CWRU Practice</p>
+            <a href="https://arachnescreativedesigns.neocities.org/" target="_blank" rel="noopener noreferrer">
+            <img alt="Survival Game: WIP Personal Project using Twine" src="./assets/images/arachneimg.png"
+            width="300" height="auto">
+            </a>
+            <p>Survival Game: WIP Personal Project</p>
+        </section>
+</section>
+</body>
 
-<!--Navigation Link to Section:THEIR WORK-->
-    <!--When CLICKED: Scrolls user down to Section:THEIR WORK-->
+<footer>
+    <div class="flex-row" div id="Contact-Me" class="navigation">
+    <h2>
+      How to Contact Me
+    </h2>
+    <p>
+        <!--Section: HOW TO CONTACT THEM-->
+        Email: <a href="mailto:mirachan2332@gmail.com">mirachan2332@gmail.com</a><br>
+        Secondary Email: <a href="mailto:arachnes.creative.designs@gmail.com">arachnes.creative.designs@gmail.com</a><br>
+        Cell: <a href="tel:8106180109">(810)-618-0109</a>
+    </p>
+    </div>
+  </footer>
 
-<!--Navigation Link to Section:HOW TO CONTACT THEM-->
-    <!--When CLICKED: Scrolls user down to Section:HOW TO CONTACT THEM-->
+</html>
 
-<!--Section: ABOUT THEM-->
-<!--Section: THEIR WORK-->
-    <!--Titled Images of Developer's Applications-->
-    <!--When presented 1st application image: Become larger than other application images-->
-    <!--When images are CLICKED: taken to deployed application (in new tab)-->
-    https://2332fun.github.io/run-buddy/ (Completed: Boot Camp Project)
-    https://2332fun.github.io/Horiseon-Project/ (Completed: Boot Camp Project)
-    https://arachnescreativedesigns.neocities.org/Survival08c.html (Work In Progress: Personal Project)
 
-<!--Section: HOW TO CONTACT THEM-->
-    Email: mirachan2332@gmail.com
-    Cell: (810)-618-0109
-<!--Resized/MediaQueries: Responsive layout adapts to viewport-->

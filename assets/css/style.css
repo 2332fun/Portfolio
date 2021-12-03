@@ -116,6 +116,7 @@ p {
     height: 400px;
     color: #ffffff;
     padding-top: 25px;
+    font-size: 30px;
 }
 
 #About-Me h2 {
@@ -136,5 +137,54 @@ p {
     height: 320px;
     position: absolute;
     margin-left: 240px;
+}
+
+#My-Work {
+    background-color: #9c5009;
+    width: auto;
+    height: auto;
+    color: #ffffff;
+    padding-top: 25px;
+    font-size: 30px;
+    padding-bottom: 200px;
+}
+
+#My-Work h2 {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#My-Work p {
+    display: inline-block;
+}
+
+#My-Work img {
+    height: auto;
+    float: left;
+    margin-right: 25px;
+    margin-left: 300px;
+    display: inline-block;
+}
+
+#Contact-Me {
+    background-color: #d8db0a;
+    width: auto;
+    height: auto;
+    color: #ffffff;
+    padding-top: 25px;
+    font-size: 30px;
+}
+
+#Contact-Me h2 {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#Contact-Me p {
+    display: block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 /*Resized/MediaQueries: Responsive layout adapts to viewport--> */

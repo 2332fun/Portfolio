@@ -7,84 +7,94 @@
     <title>Diana Taylor's Portfolio</title>
 </head>
 
-<header>
-    <!---Developer's Name-->
-    <h1>
-        Diana Taylor
-    </h1>
-    <h3>
-        Aliases: 2332fun, arachnescreativedesigns</h3>
-    </h3>
-    <!--Recent Photo or Avatar-->
-    <img class="myimg" src="./assets/images/me.jpg" alt="A recent picture of Diana Taylor" />
-    <!---Navigation Bar-->
-    <nav>
-        <!-- Unordered list element -->
-        <ul>
-            <!-- List item element-->
-            <li>
-            <!-- Anchor element -->
-            <!--Navigation Link to Section:ABOUT THEM-->
-            <!--When CLICKED: Scrolls user down to Section:ABOUT THEM-->
-            <a href="#About-Me">About Me</a>
-            </li>
-            <li>
-            <!--Navigation Link to Section:THEIR WORK-->
-            <!--When CLICKED: Scrolls user down to Section:THEIR WORK-->
-            <a href="#My-Work">My Work</a>
-            </li>
-            <li>
-            <!--Navigation Link to Section:HOW TO CONTACT THEM-->
-            <!--When CLICKED: Scrolls user down to Section:HOW TO CONTACT THEM-->
-            <a href="#Contact-Me">How To Contact Me</a>
-            </li>
-        </ul>
-    </nav>
-</header>
+<body>
+    <section>
+        <div class="header">
+            <!---Developer's Name-->
+            <h1>Diana Taylor</h1>
+            <!---Navigation Bar-->
+            <div id="nav">
+                <ul>
+                    <li>
+                    <!--Navigation Link to Section:ABOUT THEM-->
+                    <!--When CLICKED: Scrolls user down to Section:ABOUT THEM-->
+                    <a href="#About-Me">About Me</a>
+                    </li>
+                    <li>
+                    <!--Navigation Link to Section:THEIR WORK-->
+                    <!--When CLICKED: Scrolls user down to Section:THEIR WORK-->
+                    <a href="#My-Work">My Work</a>
+                    </li>
+                    <li>
+                    <!--Navigation Link to Section:HOW TO CONTACT THEM-->
+                    <!--When CLICKED: Scrolls user down to Section:HOW TO CONTACT THEM-->
+                    <a href="#Contact-Me">How To Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
-<section id="About-Me" class="intro">
-    <div class="flex-row">
+    <section>
+        <div class="banner">
+            <!---Banner-->
+            <ul>
+                <li>
+                    <h3>Aliases: 2332fun, arachnescreativedesigns</h3>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <div class="content">
+            <div id="About-Me">
             <h2>About Me</h2>
+            <!--Recent Photo or Avatar-->
+            <img class="myimg" src="./assets/images/me.jpg" alt="A recent picture of Diana Taylor"/>
+            <div class="vertical"></div>
             <p>
                 Placeholder for About Me
             </p>
-    </div>
-    <div class="flex-row">
-        <h2 id="mywork">My Work</h2>
+            </div>
+    </section>
+
+
+   <section>
+
             <!--Section: THEIR WORK-->
             <!--Titled Images of Developer's Applications-->
             <!--When presented 1st application image: Become larger than other application images-->
             <!--When images are CLICKED: taken to deployed application (in new tab)-->
-
-    </div>
-    
-    <section id="My-Work" class="links">
-            <a href="https://2332fun.github.io/run-buddy/" target="_blank" rel="noopener noreferrer">
-            <img id="firstimg" alt="Run Buddy: Completed CWRU Project" src="./assets/images/runbuddyimg.png"
-            width="300" height="auto">
-            </a>
-            <p>Run Buddy: Completed CWRU Project</p>
-            <a href="https://2332fun.github.io/Horiseon-Project/" target="_blank" rel="noopener noreferrer">
-            <img alt="Horiseon: Completed CWRU Project" src="./assets/images/Horiseonprojectimg.png"
-            width="300" height="auto">
-            </a>
-            <p>Horiseon-Project: Completed CWRU Project</p> 
-            <a href="https://2332fun.github.io/fanpage/" target="_blank" rel="noopener noreferrer">
-            <img alt="Otep Fanpage: Completed CWRU Practice" src="./assets/images/fanpageimg.png"
-            width="300" height="auto">
-            </a>
-            <p>Fanpage: Completed CWRU Practice</p>
-            <a href="https://arachnescreativedesigns.neocities.org/" target="_blank" rel="noopener noreferrer">
-            <img alt="Survival Game: WIP Personal Project using Twine" src="./assets/images/arachneimg.png"
-            width="300" height="auto">
-            </a>
-            <p>Survival Game: WIP Personal Project</p>
-        </section>
-</section>
+            <div id="My-Work">
+            <h2>My Work</h2>
+                <a href="https://2332fun.github.io/run-buddy/" target="_blank" rel="noopener noreferrer">
+                <img id="firstimg" alt="Run Buddy: Completed CWRU Project" src="./assets/images/runbuddyimg.png"
+                width="300" height="auto">
+                </a>
+                <p>Run Buddy: Completed CWRU Project</p>
+                <a href="https://2332fun.github.io/Horiseon-Project/" target="_blank" rel="noopener noreferrer">
+                <img alt="Horiseon: Completed CWRU Project" src="./assets/images/Horiseonprojectimg.png"
+                width="300" height="auto">
+                </a>
+                <p>Horiseon-Project: Completed CWRU Project</p> 
+                <a href="https://2332fun.github.io/fanpage/" target="_blank" rel="noopener noreferrer">
+                <img alt="Otep Fanpage: Completed CWRU Practice" src="./assets/images/fanpageimg.png"
+                width="300" height="auto">
+                </a>
+                <p>Fanpage: Completed CWRU Practice</p>
+                <a href="https://arachnescreativedesigns.neocities.org/" target="_blank" rel="noopener noreferrer">
+                <img alt="Survival Game: WIP Personal Project using Twine" src="./assets/images/arachneimg.png"
+                width="300" height="auto">
+                </a>
+                <p>Survival Game: WIP Personal Project</p>
+            </div>
+        </div>
+    </section>
 </body>
 
 <footer>
-    <div class="flex-row" div id="Contact-Me" class="navigation">
+    <div id="Contact-Me">
     <h2>
       How to Contact Me
     </h2>

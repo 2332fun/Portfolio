@@ -110,7 +110,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: stretch;
-    height: 400px;
+    height: 650px;
     padding-top: 10px;
     font-size: 20px;
 }
@@ -160,22 +160,30 @@ body {
 }
 
 #Contact-Me {
-    padding-left: 25px;
-    background-color: #d8db0a;
-    width: auto;
-    height: auto;
-    color: #ffffff;
-    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    height: 100px;
+    padding-top: 10px;
+    font-size: 20px;
+    flex: wrap;
 }
 
 #Contact-Me h2 {
     display: flex;
     justify-content: flex-start;
     font-size: 30px;
+    flex: 0 0 25%;
+    border-right: 6px solid black;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+#Contact-Me h3 {
+    font-size: 15px;
 }
 
 #Contact-Me p {
-    display: block;
-    font-size: 15px;
+    font-size: 10px;
 }
 /*Resized/MediaQueries: Responsive layout adapts to viewport--> */

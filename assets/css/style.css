@@ -6,14 +6,26 @@
 }
 
 body {
-    background-color: #d9dcd6;
-    color: #ffffff;
+    background-color: #4a3075;
+    color: #2b154d;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a:link {
+    color: #2b154d;
+}
+
+a:visited {
+    color: #1f0d3b;
+}
+
+a:hover {
+    color: #8c76b0;
 }
 
 /*start of header CSS*/
 .header {
-    background-color: #2a607c;
+    background-color: #3f2963;
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -23,7 +35,7 @@ body {
 
 .header h1 {
     font-size: 48px;
-    background-color: #024908;
+    background-color: #57368a;
     margin: 0;
 }
 
@@ -55,8 +67,7 @@ body {
     flex-wrap: wrap;
     height: 100px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #027805;
-    color: #ffffff;
+    background-color: #452d6b;
 }
 
 .banner h3 {
@@ -65,7 +76,7 @@ body {
 }
 
 .banner li {
-    background-color: #07777d;
+    background-color: #57368a;
     margin-top: 17%;
     padding: 5px;
     display: inline-block;
@@ -78,7 +89,7 @@ body {
 }
 
 #About-Me {
-    background-color: #400000;
+    background-color: #4a3075;
     display: flex;
     justify-content: space-between;
     align-items: stretch;
@@ -89,7 +100,7 @@ body {
 
 #About-Me div {
     flex: 0 0 25%;
-    border-right: 6px solid black;
+    border-right: 6px solid #24143d;
     padding-left: 60px;
     padding-right: 60px;
 }
@@ -110,14 +121,15 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: stretch;
-    height: 650px;
+    height: 1000px;
     padding-top: 10px;
     font-size: 20px;
+    background-color: #452d6b;
 }
 
 .box h2 {
     flex: 0 0 25%;
-    border-right: 6px solid black;
+    border-right: 6px solid #24143d;
     padding-left: 60px;
     padding-right: 60px;
 }
@@ -129,8 +141,13 @@ body {
 .items div {
     min-height: 150px;
     max-height: 150px;
-    border: 4px solid black;
+    border: 4px solid #24143d;
     margin: 5px;
+}
+
+.items div:first-child {
+    min-height: 500px;
+    max-height: 500px;
 }
 
 .items h3 {
@@ -174,7 +191,7 @@ body {
     justify-content: flex-start;
     font-size: 30px;
     flex: 0 0 25%;
-    border-right: 6px solid black;
+    border-right: 6px solid #24143d;
     padding-left: 60px;
     padding-right: 60px;
 }

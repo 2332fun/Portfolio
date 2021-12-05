@@ -202,3 +202,148 @@ a:hover {
     font-size: 10px;
 }
 /*Resized/MediaQueries: Responsive layout adapts to viewport--> */
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+    header {
+      padding-bottom: 0;
+      justify-content: center;
+      position: relative;
+    }
+  
+    header h1 {
+      width: 100%;
+      text-align: center;
+    }
+  
+    header nav ul {
+      margin-top: 20px;
+      width: 100%;
+      justify-content: center;
+    }
+  
+    header nav ul li a {
+      font-size: 20px;
+    }
+    
+    #About-Me div {
+        flex: 0 0 25%;
+        border-right: 6px solid #24143d;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    
+    #About-Me h2 {
+        text-align: left;
+    }
+    
+    #About-Me p {
+        font-size: 20px;
+        line-height: 1.6;
+        display: inline-block;
+        flex: 0 0 70%;
+        padding-left: 5px;
+    }
+
+    #Contact-Me h3 {
+        font-size: 15px;
+        padding: 10px;
+    }
+
+  }
+  
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+      }
+    
+      header h1 {
+        width: 100%;
+        text-align: center;
+      }
+    
+      header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+      }
+    
+      header nav ul li a {
+        font-size: 20px;
+      }
+      
+      #About-Me div {
+          flex: 0 0 25%;
+          border-right: 6px solid #24143d;
+          padding-left: 40px;
+          padding-right: 40px;
+      }
+      
+      #About-Me h2 {
+          text-align: left;
+      }
+      
+      #About-Me p {
+          font-size: 20px;
+          line-height: 1.6;
+          display: inline-block;
+          flex: 0 0 70%;
+          padding-left: 5px;
+      }
+  
+      #Contact-Me h3 {
+          font-size: 15px;
+          padding: 10px;
+      }
+  
+    }
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+      }
+    
+      header h1 {
+        width: 100%;
+        text-align: center;
+      }
+    
+      header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+      }
+    
+      header nav ul li a {
+        font-size: 20px;
+      }
+      
+      #About-Me div {
+          flex: 0 0 25%;
+          border-right: 6px solid #24143d;
+          padding-left: 40px;
+          padding-right: 40px;
+      }
+      
+      #About-Me h2 {
+          text-align: left;
+      }
+      
+      #About-Me p {
+          font-size: 20px;
+          line-height: 1.6;
+          display: inline-block;
+          flex: 0 0 70%;
+          padding-left: 5px;
+      }
+  
+      #Contact-Me h3 {
+          font-size: 15px;
+          padding: 10px;
+      }
+  
+    }

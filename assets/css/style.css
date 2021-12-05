@@ -93,7 +93,7 @@ a:hover {
     display: flex;
     justify-content: space-between;
     align-items: stretch;
-    height: 400px;
+    height: 300px;
     padding-top: 10px;
     font-size: 20px;
 }
@@ -145,15 +145,13 @@ a:hover {
     margin: 5px;
 }
 
+.items h3 {
+    background-color: #6c4ca1;
+}
+
 .items div:first-child {
     min-height: 500px;
     max-height: 500px;
-}
-
-.items h3 {
-    position: relative;
-    top: 16vh;
-    text-align: right;
 }
 
 .project-1 {
@@ -180,7 +178,7 @@ a:hover {
     display: flex;
     justify-content: space-between;
     align-items: stretch;
-    height: 100px;
+    height: 75px;
     padding-top: 10px;
     font-size: 20px;
     flex: wrap;
@@ -189,7 +187,7 @@ a:hover {
 #Contact-Me h2 {
     display: flex;
     justify-content: flex-start;
-    font-size: 30px;
+    font-size: 25px;
     flex: 0 0 25%;
     border-right: 6px solid #24143d;
     padding-left: 60px;

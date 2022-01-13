@@ -125,7 +125,7 @@ a:hover {
     display: flex;
     justify-content: space-between;
     align-items: stretch;
-    height: 1000px;
+    height: 1150px;
     padding-top: 10px;
     font-size: 20px;
     background-color: #452d6b;
@@ -175,6 +175,11 @@ a:hover {
 
 .project-4 {
     background-image: url("../images/arachneimg.PNG");
+    background-size: cover;
+}
+
+.project-5 {
+    background-image: url("../images/musicdashboard.PNG");
     background-size: cover;
 }
 /*end of my-work CSS*/
